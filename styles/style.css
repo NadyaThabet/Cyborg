@@ -1,0 +1,542 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #1f2122;
+}
+
+.logo-img {
+  border-right: 1px solid #27292a;
+  width: 20%;
+}
+
+.nav-link {
+  color: #666 !important;
+}
+
+.form-control {
+  padding: 0.5em 1em 0.5em 3em;
+  color: #666 !important;
+}
+
+.box {
+  background-color: #27292a;
+}
+
+::placeholder {
+  color: #666 !important;
+}
+
+.icon {
+  font-size: 16px;
+  top: 13px;
+  left: 25px;
+  color: #666 !important;
+}
+
+.box:focus {
+  background-color: #27292a !important;
+  border: 1px solid white !important;
+  box-shadow: none;
+}
+
+.home {
+  color: #e75e8d !important;
+}
+
+.btn {
+  color: #666 !important;
+}
+
+.btn:hover {
+  color: white !important;
+  background-color: #e75e8d !important;
+}
+
+.ul {
+  width: 35%;
+}
+
+.nav-link:hover {
+  color: #e75e8d !important;
+}
+
+.sub-div-2 {
+  background-color: #27292a;
+  height: 210vh !important;
+}
+
+.wel-img {
+  height: 45vh;
+  background-image: url(images/banner-bg.jpg);
+  background-size: 100% 100%;
+}
+
+.browse {
+  color: #e75e8d !important;
+}
+
+.brwse-btn {
+  background-color: #e75e8d !important;
+  color: white !important;
+  width: 12%;
+}
+
+.brwse-btn:hover {
+  background-color: white !important;
+  color: #e75e8d !important;
+}
+
+.first-h {
+  width: 41%;
+}
+
+.most-pop {
+  height: 83vh;
+  background-color: #1f2122;
+}
+
+.now {
+  color: #e75e8d !important;
+  text-decoration: none !important;
+}
+
+.card {
+  background-color: #27292a;
+}
+
+.card-text {
+  color: #666 !important;
+}
+
+.fa-download {
+  color: #e75e8d !important;
+}
+
+.discover-btn {
+  width: 16%;
+  background-color: #e75e8d !important;
+  color: white !important;
+}
+
+.discover-btn:hover {
+  background-color: white !important;
+  color: #e75e8d !important;
+}
+
+.library {
+  height: 55vh;
+}
+
+.bottom-row {
+  color: #666 !important;
+}
+
+.btn-bottom {
+  color: #666 !important;
+  width: 90%;
+  padding: inherit;
+  border-color: #666 !important;
+}
+
+.btn-001 {
+  color: #e75e8d !important;
+  border-color: #e75e8d !important;
+}
+
+.btn-001:hover {
+  background-color: white !important;
+  border: transparent !important;
+}
+
+.view-div {
+  width: 16%;
+}
+
+.view-btn {
+  width: 16%;
+  background-color: #e75e8d !important;
+  color: white !important;
+}
+
+.view-btn:hover {
+  background-color: white !important;
+  color: #e75e8d !important;
+}
+
+table {
+  border-color: rgba(102, 102, 102, 10%) !important;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .sub-div-1 {
+    width: 145%;
+  }
+  .search-form {
+    margin-top: 1em;
+  }
+  .box {
+    margin-left: auto;
+    margin-right: 1em;
+  }
+  .sub-div-2 {
+    width: 125% !important;
+    margin-left: 1.5em;
+    margin-right: 1em;
+    height: 965vh !important;
+  }
+  .wel-img {
+    height: 55vh;
+  }
+  .wel-cyb {
+    margin-bottom: 3.5rem !important;
+  }
+  .brwse-btn {
+    width: 50%;
+    margin-bottom: 2em !important;
+    margin-left: 2.2em;
+  }
+  .most-pop {
+    height: 471vh !important;
+    margin-top: 3em;
+  }
+  .most-text {
+    font-size: 22px !important;
+  }
+  .most-pop-2 {
+    height: 386vh !important;
+    margin-top: 3.5em;
+  }
+  .right-text {
+    font-size: 22px;
+  }
+  .top-text {
+    margin-top: -1em;
+    width: 111%;
+    font-size: 22px;
+  }
+  .card {
+    width: 12rem !important;
+    height: 50vh !important;
+  }
+  .discover-btn {
+    width: 65% !important;
+  }
+  .tr {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    height: 134vh !important;
+    margin-top: -1em !important;
+    text-align: center;
+  }
+  .tr-img {
+    width: 60% !important;
+  }
+  .tr-2 {
+    margin-top: -5em !important;
+  }
+  .last-tr {
+    margin-bottom: -8em !important;
+    margin-top: -5em !important;
+  }
+  .view-div {
+    width: 60%;
+    margin-top: -1em;
+  }
+  .footer {
+    height: 25vh;
+    width: 140%;
+    margin-top: 5em;
+    font-size: 14px;
+  }
+  .signature {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .sub-div-1 {
+    width: 105%;
+  }
+  .search-form {
+    margin-top: 1em;
+  }
+  .box {
+    margin-left: auto;
+    margin-right: 2em;
+  }
+  .sub-div-2 {
+    width: 90% !important;
+    margin-left: 1.5em;
+    margin-right: 1em;
+    height: 685vh !important;
+    padding-top: 1.5rem !important;
+  }
+  .wel-img {
+    height: 35vh;
+  }
+  .wel-cyb {
+    margin-bottom: 3.5rem !important;
+  }
+  .brwse-btn {
+    width: 50%;
+    margin-bottom: 2em !important;
+    margin-left: 2.2em;
+  }
+  .most-pop {
+    height: 341vh !important;
+  }
+  .most-text {
+    font-size: 22px !important;
+  }
+  .most-pop-2 {
+    height: 280vh !important;
+  }
+  .right-text {
+    font-size: 22px;
+  }
+  .top-text {
+    margin-top: 1em;
+    width: 111%;
+    font-size: 22px;
+  }
+  .card {
+    width: 15rem !important;
+    height: 37vh !important;
+  }
+  .discover-btn {
+    width: 65% !important;
+  }
+  .tr {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    height: 134vh !important;
+    margin-top: -1em !important;
+    text-align: center;
+  }
+  .tr-img {
+    width: 85% !important;
+  }
+  .tr-2 {
+    margin-top: -24em !important;
+  }
+  .last-tr {
+    margin-bottom: -25em !important;
+    margin-top: -24em !important;
+  }
+  .view-div {
+    width: 60%;
+    margin-top: -1em;
+  }
+  .footer {
+    height: 25vh;
+    width: 100%;
+    margin-top: 5em;
+    font-size: 16px;
+  }
+  .signature {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .sub-div-1 {
+    width: 105%;
+  }
+  .search-form {
+    margin-top: 1em;
+  }
+  .box {
+    margin-left: auto;
+    margin-right: 5em;
+  }
+  .sub-div-2 {
+    width: 100% !important;
+    margin-left: 0em;
+    margin-right: 1em;
+    height: 465vh !important;
+    padding-top: 1.5rem !important;
+  }
+  .wel-img {
+    height: 30vh;
+  }
+  .wel-cyb {
+    margin-bottom: 0.5rem !important;
+  }
+  .brwse-btn {
+    width: 30%;
+    margin-bottom: -1em !important;
+    margin-left: 0.5em;
+  }
+  .cc {
+    margin-left: -1rem !important;
+  }
+  .most-pop {
+    height: 172vh !important;
+  }
+  .most-text {
+    font-size: 22px !important;
+  }
+  .most-pop-2 {
+    height: 241vh !important;
+  }
+  .right-text {
+    font-size: 22px;
+  }
+  .top-text {
+    margin-top: 1em;
+    width: 111%;
+    font-size: 22px;
+    margin-left: 0em;
+  }
+  .card {
+    width: 15rem !important;
+    height: 37vh !important;
+  }
+  .discover-btn {
+    width: 35% !important;
+  }
+  .tr {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    height: 134vh !important;
+    margin-top: -1em !important;
+    text-align: center;
+  }
+  .tr-img {
+    width: 60% !important;
+  }
+  .tr-2 {
+    margin-top: -38em !important;
+  }
+  .last-tr {
+    margin-bottom: -25em !important;
+    margin-top: -38em !important;
+  }
+  .btn-bottom {
+    color: #666 !important;
+    width: 35%;
+    padding: inherit;
+    border-color: #666 !important;
+  }
+  .view-div {
+    width: 35%;
+    margin-top: -15em;
+  }
+  .footer {
+    height: 25vh;
+    width: 100%;
+    margin-top: 5em;
+    font-size: 16px;
+  }
+  .signature {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .sub-div-1 {
+    width: 105%;
+  }
+  .search-form {
+    margin-top: 0em;
+  }
+  .box {
+    margin-left: auto;
+    margin-right: 0em;
+  }
+  .sub-div-2 {
+    width: 100% !important;
+    margin-left: 0em;
+    margin-right: 1em;
+    height: 210vh !important;
+    padding-top: 1.5rem !important;
+  }
+  .wel-img {
+    height: 30vh;
+  }
+  .wel-cyb {
+    margin-bottom: 0.5rem !important;
+  }
+  .brwse-btn {
+    width: 20%;
+    margin-bottom: -1em !important;
+    margin-left: 0.5em;
+  }
+  .cc {
+    margin-left: -1rem !important;
+  }
+  .most-pop {
+    height: 93.5vh !important;
+  }
+  .most-text {
+    font-size: 22px !important;
+  }
+  .most-pop-2 {
+    height: 61vh !important;
+  }
+  .right-text {
+    font-size: 22px;
+  }
+  .top-text {
+    margin-top: 1em;
+    width: 111%;
+    font-size: 22px;
+    margin-left: 0em;
+  }
+  .card {
+    width: 15rem !important;
+    height: 25vh !important;
+  }
+  .discover-btn {
+    width: 40% !important;
+  }
+  .tr {
+    display: flex !important;
+    flex-direction: row;
+    width: 100% !important;
+    height: 66vh !important;
+    margin-top: 0em !important;
+    text-align: center;
+    justify-content: space-between;
+  }
+  .tr-img {
+    width: 100% !important;
+  }
+  .tr-2 {
+    margin-top: -40em !important;
+  }
+  .last-tr {
+    margin-bottom: -25em !important;
+    margin-top: -40em !important;
+  }
+  .btn-bottom {
+    color: #666 !important;
+    width: 125%;
+    padding: inherit;
+    border-color: #666 !important;
+  }
+  .view-div {
+    width: 25%;
+    margin-top: -12em;
+  }
+  .footer {
+    height: 25vh;
+    width: 100%;
+    margin-top: 5em;
+    font-size: 30px;
+  }
+  .signature {
+    font-size: 35px;
+  }
+  .h6,
+  h6 {
+    font-size: 22px;
+  }
+}
